@@ -1,0 +1,24 @@
+#gameContainer {
+    text-align: center;
+}
+#gameBoard {
+    border: 3px solid;
+    background-image: url("FFTOUSE");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; /* Ensure the image covers the canvas */
+}
+#scoreText {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 100px;
+}
+#resetButton {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 27px;
+    width: 100px;
+    height: 50px;
+    border: 4px solid;
+    border-radius: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
