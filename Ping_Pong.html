@@ -5,13 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PING PONG GAME</title>
     <link rel="stylesheet" href="Ping_Pong.css">
+
+    <script src="https://kit.fontawesome.com/d8a00cd53f.js" crossorigin="anonymous"></script>
 </head>
 <body>
+
+    <div class="info">
+        <h1>Player 1</h1>
+        <p>Use <i class="fa-solid fa-w"></i> & <i class="fa-solid fa-s"></i><br> To Move <br>Up | Down</p>
+    </div>
+
     <div id="gameContainer">
         <canvas id="gameBoard" width="500" height="500"></canvas>
         <div id="scoreText">0 : 0</div>
         <button id="resetButton">Reset</button>
     </div>
+
+    <div class="info">
+        <h1>Player 2</h1>
+        <p>Use <i class="fa-solid fa-arrow-up"></i> & <i class="fa-solid fa-arrow-down"></i><br> To Move <br>Up | Down</p>
+    </div>
+    
+
+    
 
     <script src="Ping_Pong.js"></script>
 </body>
